@@ -25,7 +25,7 @@ const ContactSection = () => {
         </p>
       </motion.div>
 
-      <div className="grid md:grid-cols-[1fr_1.5fr] gap-16 max-w-5xl">
+      <div className="grid md:grid-cols-[1fr_1.5fr] gap-16 max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}

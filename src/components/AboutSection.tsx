@@ -9,7 +9,7 @@ const AboutSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
-        className="max-w-5xl"
+        className="max-w-5xl mx-auto"
       >
         <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-12">
           About Me

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 
-const navItems = ["Shlokas", "About", "Career", "Projects", "Skills", "Achievements", "Contact"];
+const navItems = ["About", "Career", "Projects", "Skills", "Achievements", "Contact"];
 
 const Navbar = () => {
   const scrollTo = (id: string) => {

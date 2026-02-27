@@ -46,7 +46,7 @@ const CareerSection = () => {
         </p>
       </motion.div>
 
-      <div className="max-w-3xl space-y-0">
+      <div className="max-w-3xl mx-auto space-y-0">
         {timeline.map((item, i) => (
           <motion.div
             key={i}

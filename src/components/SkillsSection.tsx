@@ -28,7 +28,7 @@ const SkillsSection = () => {
         </p>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-16 max-w-5xl">
+      <div className="grid md:grid-cols-2 gap-16 max-w-5xl mx-auto">
         <div>
           <h3 className="font-serif text-2xl text-foreground mb-8">Technical</h3>
           <div className="space-y-6">

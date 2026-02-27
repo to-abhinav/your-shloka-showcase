@@ -7,7 +7,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="max-w-5xl"
+        className="max-w-5xl mx-auto"
       >
         <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
           Welcome

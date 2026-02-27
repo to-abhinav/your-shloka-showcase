@@ -74,7 +74,7 @@ const ShlokSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
-        className="max-w-3xl space-y-4"
+        className="max-w-3xl mx-auto space-y-4"
       >
         <p className="font-sanskrit text-2xl md:text-3xl lg:text-4xl text-sanskrit leading-relaxed">
           {shlok.sanskrit}

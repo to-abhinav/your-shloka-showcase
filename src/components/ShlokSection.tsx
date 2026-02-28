@@ -253,6 +253,7 @@ const ShlokSection = () => {
                   rounded-2xl 
                   p-12 
                   shadow-2xl"
+
       >
         {/* Subtle Inner Glow */}
         <div className="absolute inset-0 rounded-2xl bg-white/5 opacity-30 blur-2xl pointer-events-none"></div>
